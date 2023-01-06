@@ -4,6 +4,7 @@
 
 int main()
 {
+    // 字母出現次數
     char str[10000];
     int cnt = 0, arr[26] = {0};
     while(scanf("%s", str) != -1)

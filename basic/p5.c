@@ -2,11 +2,13 @@
 
 int main()
 {
+    // decimal to binary
     int a;
     while(scanf("%d", &a) != -1)
     {
         if(a < 0)
         {
+            // if negative, 2 補數
             a = -a;
             a ^= 0b11111111;
             a++;

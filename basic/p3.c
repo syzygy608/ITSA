@@ -2,6 +2,7 @@
 
 int main()
 {
+    // in or out for the circle
     int a, b;
     while(scanf("%d %d", &a, &b) != -1)
     {
